@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedPro/Profile</title>
+    <!-- Link Icons -->
+    <link rel="Icon" href="images/LP1.jpg" />
+    <!-- Link TO CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!--  Link To FontAwesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ------------------------------NavBar Start------------ -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo">
+          <h3>Pro</h3>
+        </a>
+        <div class="searchBox">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="Search..." />
+        </div>
+      </div>
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="index.html"> <img src="images/home.png" /></a
+            ><span>Home</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/network.png" /></a
+            ><span>My Network</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/jobs.png" /></a><span>Job</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/message.png" /></a
+            ><span>Messaging</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/notification.png" /></a
+            ><span>Notifications</span>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="images/user-1.png"
+            class="nav-profile-Img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="images/user-1.png" alt="" />
+            <div>
+              <h3>Rayan Walton</h3>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="menu-links">
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Give Feedback</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Sitting & Privacy</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Help & Support</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Display & Accessibility</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Logout</span>
+              </div>
+              <span>></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- --------------------------------Profile Section---------------- -->
+
+    <div class="container">
+      <div class="profile-menu">
+        <div class="profile-Container">
+          <img src="images/cover-pic.png" alt="" />
+          <div class="profile-Container-inner">
+            <img src="images/user-1.png" class="profile-Pic" />
+            <h1>Rayal Walton</h1>
+            <b
+              >Web Developer at MicroSoft | Former developer at DataStack and
+              intern at Oracle</b
+            >
+            <p>
+              San Francisco, United States &middot; <a href="#">Contact info</a>
+            </p>
+
+            <div class="mutual-connection">
+              <img src="images/user-2.png" alt="" />
+              <span>1 mutual connection: Orlando Diggs</span>
+            </div>
+            <div class="profile-btn">
+              <a href="#"><img src="images/connect.png" alt="" />Connect</a>
+              <a href="#"><img src="images/chat.png" alt="" />Message</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-description">
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            natus in eveniet quis adipisci laboriosam iusto. In alias dolor
+            distinctio, odit natus praesentium eveniet laudantium nostrum dolore
+            minima architecto quod!. In alias dolor distin, odit natus
+            praesentium eveniet laudantium nostrum dolore minima architecto
+            quod!
+          </p>
+          <a href="#">See more...</a>
+        </div>
+
+        <div class="profile-description">
+          <h2>Experience</h2>
+          <div class="profile-desc-row">
+            <img src="images/microsoft.png" alt="" />
+            <div>
+              <h3>Lead Full Stack Developer</h3>
+              <b>MicroSoft $middot; Full-time</b>
+              <b>May 2023 - Present &middot; 2 months</b>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione adipisci aspernatur accusantium perferendis velit
+                placeat doloribus, expedita ex recusandae neque consequuntur
+                impedit deleniti rem temporibus. Molestias illo amet obcaecati
+                quidem.
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/slack.png" alt="" />
+            <div>
+              <h3>Frontend Developer</h3>
+              <b>Slack $middot; Full-time</b>
+              <b>Jan 2022 - April 2023 &middot; 1.2 years</b>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione adipisci aspernatur accusantium perferendis velit
+                placeat doloribus, expedita ex recusandae neque consequuntur
+                impedit deleniti rem temporibus. Molestias illo amet obcaecati
+                quidem.
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/google.png" alt="" />
+            <div>
+              <h3>Backend Developer</h3>
+              <b>Google $middot; Full-time</b>
+              <b>Jan 2021 - Dec 201 &middot; 1 years</b>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione adipisci aspernatur accusantium perferendis velit
+                placeat doloribus, expedita ex recusandae neque consequuntur
+                impedit deleniti rem temporibus. Molestias illo amet obcaecati
+                quidem.
+              </p>
+              <hr />
+            </div>
+          </div>
+          <hr />
+          <a href="#"
+            >Show all Experiences <img src="images/right-arrow.png" alt=""
+          /></a>
+        </div>
+
+        <div class="profile-description">
+          <h2>Education</h2>
+          <div class="profile-desc-row">
+            <img src="images/stanford.png" alt="" />
+            <div>
+              <h3>Stanford University</h3>
+              <b>BSSE (Software Engineering), Computer Science</b>
+              <b>Oct 2020 - Sep 2024</b>
+              <span>Grade: A</span>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/north.png" alt="" />
+            <div>
+              <h3>Stanford University</h3>
+              <b>FSc. Pre Engineering</b>
+              <b>2018 - 2020</b>
+              <span>Grade: A</span>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/mit.png" alt="" />
+            <div>
+              <h3>Stanford University</h3>
+              <b>Matric Science</b>
+              <b>2016 - 2018</b>
+              <span>Grade: A+</span>
+            </div>
+          </div>
+        </div>
+
+        <!--==============Skills=============== -->
+        <div class="profile-description">
+          <h2>Skills</h2>
+          <div class="skills">
+            <a href="#" class="skills-btn">Web Development</a>
+            <a href="#" class="skills-btn">JavaScript</a>
+            <a href="#" class="skills-btn">Node JS</a>
+            <a href="#" class="skills-btn">Express Js</a>
+            <a href="#" class="skills-btn">MongoDB</a>
+            <a href="#" class="skills-btn">MySQL</a>
+            <a href="#" class="skills-btn">ReactJS</a>
+            <a href="#" class="skills-btn">JQuery</a>
+            <a href="#" class="skills-btn">HTML5</a>
+            <a href="#" class="skills-btn">CSS3</a>
+            <a href="#" class="skills-btn">BootStrap</a>
+            <a href="#" class="skills-btn">Python</a>
+            <a href="#" class="skills-btn">LeaderShip</a>
+          </div>
+        </div>
+
+        <!-- Languages -->
+
+        <div class="profile-description">
+          <h2>Languages</h2>
+          <div class="languages">
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">Urdu</a>
+            <a href="#" class="language-btn">Panjabi</a>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------- Profile Side bar Start-------------- -->
+      <div class="profile-sidebar">
+        <div class="sidebar-ads">
+          <small>Ad... </small>
+          <p>Master the 5 principles of web desin</p>
+          <div class="Ads-images">
+            <img src="images/user-1.png" alt="" />
+            <img src="images/mi-logo.png" alt="" />
+          </div>
+          <b>Brand and Demand in Xiaomi</b>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="sidebar-people">
+          <h3>People you may know</h3>
+          <div class="sidebar-people-row">
+            <img src="images/user-3.png" alt="" />
+
+            <div>
+              <h3>Samuel Tony</h3>
+              <p>Web developer</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+          <div class="sidebar-people-row">
+            <img src="images/user-1.png" alt="" />
+
+            <div>
+              <h3>Ahmad Sultan</h3>
+              <p>UI/UX Designer</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+          <div class="sidebar-people-row">
+            <img src="images/user-2.png" alt="" />
+
+            <div>
+              <h3>Sohail khan</h3>
+              <p>Software Engineer</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+          <div class="sidebar-people-row">
+            <img src="images/user-4.png" alt="" />
+
+            <div>
+              <h3>Aliza Ahmad</h3>
+              <p>Java Developver</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+          <div class="sidebar-people-row">
+            <img src="images/user-5.png" alt="" />
+
+            <div>
+              <h3>Sunny Teo</h3>
+              <p>Senior Android Developer</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile Foooter -->
+
+    <div class="profile-footer">
+      <div class="sidebar-useful-links">
+        <div class="links">
+          <a href="#">About</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Help Center</a>
+          <a href="#">Privacy</a>
+          <a href="#">Advertising</a>
+          <a href="#">Get the App</a>
+          <a href="#">More</a>
+        </div>
+
+        <div class="copyright-msg">
+          <h3>Pro</h3>
+          <h6>linkedPro &copy; 2023. All right reserved</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link TO JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedPro</title>
+    <!-- Link Icons -->
+    <link rel="Icon" href="images/LP1.jpg" />
+    <!-- Link TO CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!--  Link To FontAwesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ------------------------------NavBar Start------------ -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo">
+          <h3>Pro</h3>
+        </a>
+        <div class="searchBox">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="Search..." />
+        </div>
+      </div>
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="index.html"> <img src="images/home.png" /></a
+            ><span>Home</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/network.png" /></a
+            ><span>My Network</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/jobs.png" /></a><span>Job</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/message.png" /></a
+            ><span>Messaging</span>
+          </li>
+          <li>
+            <a href="#"> <img src="images/notification.png" /></a
+            ><span>Notifications</span>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="images/user-1.png"
+            class="nav-profile-Img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <a href="profile.html"><img src="images/user-1.png" alt="" /></a>
+            <div>
+              <h3>Rayan Walton</h3>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="menu-links">
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Give Feedback</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Sitting & Privacy</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Help & Support</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Display & Accessibility</span>
+              </div>
+              <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+              <div>
+                <img src="images/feedback.png" alt="" />
+                <span>Logout</span>
+              </div>
+              <span>></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ------------------------------NavBar End------------ -->
+
+    <!-- ------------------------------Profile Start------------ -->
+
+    <div class="container">
+      <!--  -----------------Left SideBar Start----------------------- -->
+
+      <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+          <img src="images/cover-pic.png" class="coverImg" />
+          <div class="sidebar-profile-info">
+            <img src="images/user-1.png" class="profileImg" />
+            <h3>Rayan Walton</h3>
+            <h4>Web Developer at Microsoft</h4>
+            <ul>
+              <li>Your profile views <span>120</span></li>
+              <li>Your post views <span>930</span></li>
+              <li>Your connections <span>355</span></li>
+            </ul>
+          </div>
+
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="images/items.png" />My items</a>
+            <a href="#"><img src="images/premium.png" />Try Premium</a>
+          </div>
+        </div>
+
+        <div class="sidebar-activity">
+          <h3>Recent</h3>
+          <a href="#"><img src="images/recent.png" alt="" />Web Development</a>
+          <a href="#"><img src="images/recent.png" alt="" />User Interface</a>
+          <a href="#"><img src="images/recent.png" alt="" />Online Learning</a>
+          <a href="#"><img src="images/recent.png" alt="" />Learn Online</a>
+          <a href="#"><img src="images/recent.png" alt="" />Better Code</a>
+          <a href="#"><img src="images/recent.png" alt="" />Group learning</a>
+
+          <h3>Groups</h3>
+          <a href="#"><img src="images/group.png" alt="" />Web Design Group</a>
+          <a href="#"
+            ><img src="images/group.png" alt="" />HTMl & CSS Learners</a
+          >
+          <a href="#"
+            ><img src="images/group.png" alt="" />Python & JavaScript</a
+          >
+          <a href="#"
+            ><img src="images/group.png" alt="" />Learn Coding Online
+          </a>
+          <a href="#"><img src="images/group.png" alt="" />Web Development</a>
+
+          <h3>Hashtag</h3>
+          <a href="#"><img src="images/hashtag.png" alt="" />WebDevelopment</a>
+          <a href="#"><img src="images/hashtag.png" alt="" />UserInterface</a>
+          <a href="#"><img src="images/hashtag.png" alt="" />OnlineLearning</a>
+
+          <div class="discover-more-link">
+            <a href="#">Discover more</a>
+          </div>
+        </div>
+      </div>
+
+      <!--  -----------------Main COntent Start----------------------- -->
+
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <a href="profile.html"><img src="images/user-1.png" alt="" /></a>
+            <textarea placeholder="Write a post..." rows="2"></textarea>
+          </div>
+          <div class="create-post-links">
+            <a href="#"><img src="images/photo.png" alt="" />Photo</a>
+            <a href="#"><img src="images/video.png" alt="" />Video</a>
+            <a href="#"><img src="images/event.png" alt="" />Event</a>
+            <a href="#">Post</a>
+          </div>
+        </div>
+
+        <div class="short-by">
+          <hr />
+          <p>
+            Short by: <b>top <img src="images/down-arrow.png" alt="" /></b>
+          </p>
+        </div>
+
+        <div class="post-container">
+          <div class="post">
+            <div class="post-auther">
+              <img src="images/user-3.png" alt="" />
+              <div>
+                <h1>Benjamin Leo</h1>
+                <small
+                  >Founder and CEO at Gellelio Group | Angel investor</small
+                >
+                <small>2 hours ago</small>
+              </div>
+            </div>
+            <p>
+              The susccess of every website depends on search engine
+              optimization and digital marketing strategy. If you are on forst
+              page of all major search engines then you are ahead amoung your
+              competitors.
+            </p>
+            <img src="images/post-image-1.png" class="postImg" />
+
+            <div class="post-status">
+              <div>
+                <img src="images/thumbsup.png" alt="" />
+                <img src="images/love.png" alt="" />
+                <img src="images/clap.png" alt="" />
+                <span class="liked">Abhivan Misha and 87 others</span>
+              </div>
+              <div>27 comments &middot; 47 shares</div>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="post-auther">
+              <img src="images/user-4.png" alt="" />
+              <div>
+                <h1>Benjamin Leo</h1>
+                <small
+                  >Founder and CEO at Gellelio Group | Angel investor</small
+                >
+                <small>9 hours ago</small>
+              </div>
+            </div>
+            <p>
+              The susccess of every website depends on search engine
+              optimization and digital marketing strategy. If you are on forst
+              page of all major search engines then you are ahead amoung your
+              competitors.
+            </p>
+            <img src="images/post-image-3.png" class="postImg" />
+
+            <div class="post-status">
+              <div>
+                <img src="images/thumbsup.png" alt="" />
+                <img src="images/love.png" alt="" />
+                <img src="images/clap.png" alt="" />
+                <span class="liked">Abhivan Misha and 81 others</span>
+              </div>
+              <div>45 comments &middot; 87 shares</div>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="post-auther">
+              <img src="images/user-1.png" alt="" />
+              <div>
+                <h1>Benjamin Leo</h1>
+                <small
+                  >Founder and CEO at Gellelio Group | Angel investor</small
+                >
+                <small>1 day ago</small>
+              </div>
+            </div>
+            <p>
+              The susccess of every website depends on search engine
+              optimization and digital marketing strategy. If you are on forst
+              page of all major search engines then you are ahead amoung your
+              competitors.
+            </p>
+            <img src="images/post-image-2.png" class="postImg" />
+
+            <div class="post-status">
+              <div>
+                <img src="images/thumbsup.png" alt="" />
+                <img src="images/love.png" alt="" />
+                <img src="images/clap.png" alt="" />
+                <span class="liked">Abhivan Misha and 182 others</span>
+              </div>
+              <div>91 comments &middot; 119 shares</div>
+            </div>
+          </div>
+
+          <div class="post">
+            <div class="post-auther">
+              <img src="images/user-2.png" alt="" />
+              <div>
+                <h1>Benjamin Leo</h1>
+                <small
+                  >Founder and CEO at Gellelio Group | Angel investor</small
+                >
+                <small>2 days ago</small>
+              </div>
+            </div>
+            <p>
+              The susccess of every website depends on search engine
+              optimization and digital marketing strategy. If you are on forst
+              page of all major search engines then you are ahead amoung your
+              competitors.
+            </p>
+            <img src="images/post-image-4.png" class="postImg" />
+
+            <div class="post-status">
+              <div>
+                <img src="images/thumbsup.png" alt="" />
+                <img src="images/love.png" alt="" />
+                <img src="images/clap.png" alt="" />
+                <span class="liked">Abhivan Misha and 253 others</span>
+              </div>
+              <div>123 comments &middot; 112 shares</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  -----------------Right SideBar Start----------------------- -->
+
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <div class="trend-head">
+            <h2>Trending News</h2>
+            <img src="images/more.png" alt="" />
+          </div>
+          <div class="trends">
+            <a href="#">High demand for skilled manpower</a>
+            <span>1d ago &middot; 10,934 readers</span>
+          </div>
+          <div class="trends">
+            <a href="#">Careers growing horizontally too</a>
+            <span>2d ago &middot; 15,534 readers</span>
+          </div>
+          <div class="trends">
+            <a href="#">More hiring = higher confidence?</a>
+            <span>16h ago &middot; 8,234 readers</span>
+          </div>
+          <div class="trends">
+            <a href="#">Less work visa for US, more for UK</a>
+            <span>1d ago &middot; 18,021 readers</span>
+          </div>
+          <div class="trends">
+            <a href="#">Gautam Addni in the world's third richest</a>
+            <span>11h ago &middot; 4,533 readers</span>
+          </div>
+          <a href="#" class="more-read">Read More</a>
+        </div>
+
+        <div class="sidebar-ads">
+          <small>Ad... </small>
+          <p>Master the 5 principles of web desin</p>
+          <div class="Ads-images">
+            <img src="images/user-1.png" alt="" />
+            <img src="images/mi-logo.png" alt="" />
+          </div>
+          <b>Brand and Demand in Xiaomi</b>
+          <a href="#" class="learn-more">Learn More</a>
+        </div>
+
+        <div class="sidebar-useful-links">
+          <div class="links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+          </div>
+
+          <div class="copyright-msg">
+            <h3>Pro</h3>
+            <h6>linkedPro &copy; 2023. All right reserved</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link TO JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
